@@ -36,7 +36,7 @@ A simple project to learn how to create and manage custom systemd services.
     sudo systemctl disable dummy
     ```
 
-### Notes
+#### Notes:
 - Logs are written to /var/log/dummy-service.log.
 - Service auto-restarts if it fails.
 - Runs automatically on boot once enabled.
